@@ -1,0 +1,120 @@
+.animacion {
+    animation-name: aparecer;
+    animation-duration: 1.12s;
+}
+
+.oculto {
+    display: none;
+}
+
+.animacion2 {
+    animation-name: aparecer2;
+    animation-duration: 1s;
+}
+
+.anim3 {
+    animation-name: anim3;
+    animation-duration: 1s;
+}
+
+@keyframes anim3 {
+    from {
+        top: 19rem;
+    }
+    to {
+        top: 14rem;
+    }
+}
+
+@keyframes aparecer {
+    from {
+      opacity: 0;
+      left: -10rem;
+    }
+    to {
+      opacity: 1;
+      left: 20px;
+    }
+}
+
+@keyframes aparecer2 {
+    from {
+        opacity: 0;
+        left: 0rem;
+    }
+    to {
+        opacity: 1;
+        left: 10.5rem;
+    }
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    height: 75px;
+    position: fixed;
+    top:0;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.9rem;
+    font-family: "Montserrat", sans-serif;
+    color: antiquewhite;
+}
+
+#seleccionar {
+    position: fixed;
+    border: none;
+    left: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: coral;
+    font-weight: 550;
+    font-size: 1.5rem;
+    text-shadow: 3px 3px lightcyan;
+    top: 10rem;
+}
+
+#select1 {
+    background-color:lightcyan;
+    width: 5rem;
+    position: fixed;
+    left: 10.5rem;
+    top: 9.6rem;
+    font-size: 1rem;
+    height: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    border-radius: 5px 5px;
+    box-shadow: 2px 2px lightcoral;
+}
+
+#top {
+    position: fixed;
+    top: 14rem;
+    left: 2rem;
+}
+#jungla {
+    position: fixed;
+    top: 14rem;
+    left: 2rem;
+}
+#mid {
+    position: fixed;
+    top: 14rem;
+    left: 2rem;
+}
+#adc {
+    position: fixed;
+    top: 14rem;
+    left: 2rem;
+}
+#support {
+    position: fixed;
+    top: 14rem;
+    left: 2rem;
+}
